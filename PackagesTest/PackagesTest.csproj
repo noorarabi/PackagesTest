@@ -17,8 +17,12 @@
 		<!-- وصف الحزمة -->
 		<PackageTags>tag1;tag2;tag3</PackageTags>
 		<!-- كلمات مفتاحية للحزمة -->
-		<RepositoryUrl>https://github.com/noorarabi/PackagesTest</RepositoryUrl>
+		<RepositoryUrl>https://github.com/PackagesTest</RepositoryUrl>
 		<!-- رابط المستودع -->
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include=".gethub\workflows\Publish_Package.yaml" />
+	</ItemGroup>
 
 </Project>
