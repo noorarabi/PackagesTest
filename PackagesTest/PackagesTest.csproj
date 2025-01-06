@@ -1,9 +1,24 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- معلومات حزمة NuGet -->
+		<PackageId>Test</PackageId>
+		<!-- اسم الحزمة -->
+		<Version>1.0.0</Version>
+		<!-- إصدار الحزمة -->
+		<Authors>Noor</Authors>
+		<!-- اسم المؤلف -->
+		<Description>this package to PackagesTest Project</Description>
+		<!-- وصف الحزمة -->
+		<PackageTags>tag1;tag2;tag3</PackageTags>
+		<!-- كلمات مفتاحية للحزمة -->
+		<RepositoryUrl>https://github.com/PackagesTest</RepositoryUrl>
+		<!-- رابط المستودع -->
+	</PropertyGroup>
 
 </Project>
