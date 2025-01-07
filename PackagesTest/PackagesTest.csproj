@@ -22,7 +22,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Include=".gethub\workflows\Publish_Package.yaml" />
+	  <None Include=".github\workflows\Publish_Package.yaml" />
 	</ItemGroup>
 
 </Project>
