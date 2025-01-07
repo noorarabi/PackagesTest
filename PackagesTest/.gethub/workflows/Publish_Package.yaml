@@ -20,8 +20,8 @@ jobs:
     - name: Authenticate with GitHub Packages
       run: |
         dotnet nuget add source \
-          --username ${{ secrets.GITHUB_ACTOR }} \
-          --password ${{ secrets.GITHUB_TOKEN }} \
+          --username ${{ github.actor }} \
+          --password ${{ secrets.PERSONAL_ACCESS_TOKEN }} \
           --store-password-in-clear-text \
           --name github \
           https://nuget.pkg.github.com/PackagesTest/index.json
