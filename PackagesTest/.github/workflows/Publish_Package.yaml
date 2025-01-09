@@ -1,8 +1,9 @@
-﻿name: Publish Package
+﻿
+name: Publish Package
 on:
   push:
     branches:
-      - master  # أو main حسب اسم الفرع.
+      - master # استخدم اسم الفرع الصحيح.
 
 jobs:
   publish:
@@ -20,7 +21,7 @@ jobs:
     - name: Authenticate with GitHub Packages
       run: |
         dotnet nuget add source \
-          --username noorarabi\
+          --username noorarabi \
           --password ${{ secrets.PERSONAL_ACCESS_TOKEN }} \
           --store-password-in-clear-text \
           --name github \
