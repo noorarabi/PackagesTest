@@ -19,7 +19,7 @@
 		<!-- كلمات مفتاحية للحزمة -->
 		
 		<RepositoryUrl>https://github.com/noorarabi/PackagesTest</RepositoryUrl>
-		<License>MIT</License>
+	
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/noorarabi/PackagesTest</PackageProjectUrl>
 		<RepositoryType>git</RepositoryType>
