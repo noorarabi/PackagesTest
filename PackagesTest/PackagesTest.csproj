@@ -17,7 +17,9 @@
 		<!-- وصف الحزمة -->
 		<PackageTags>tag1;tag2;tag3</PackageTags>
 		<!-- كلمات مفتاحية للحزمة -->
-		<RepositoryUrl>https://github.com/PackagesTest</RepositoryUrl>
+		
+		<RepositoryUrl>https://github.com/noorarabi/PackagesTest</RepositoryUrl>
+		<License>MIT</License>
 		<!-- رابط المستودع -->
 	</PropertyGroup>
 

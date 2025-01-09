@@ -20,11 +20,11 @@ jobs:
     - name: Authenticate with GitHub Packages
       run: |
         dotnet nuget add source \
-          --username ${{ github.actor }} \
+          --username noorarabi\
           --password ${{ secrets.PERSONAL_ACCESS_TOKEN }} \
           --store-password-in-clear-text \
           --name github \
-          https://nuget.pkg.github.com/PackagesTest/index.json
+          https://nuget.pkg.github.com/noorarabi/index.json
 
     - name: Restore Dependencies
       run: dotnet restore
